@@ -1,4 +1,4 @@
-document.getElementById('search-form').addEventListener('submit', function (e) {
+    document.getElementById('search-form').addEventListener('submit', function (e) {
     e.preventDefault();
     
     const searchQuery = document.getElementById('search-input').value.toLowerCase();
