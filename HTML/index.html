@@ -8,84 +8,20 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     </head>
-  <body>
-    <!-- Primer Menu -->
-    <nav class="navbar navbar-expand-lg bg-dark text-light py-5">
+  <body >
+    <!-- Primer Menu --> 
+    <nav class="navbar navbar-expand-lg bg-black text-light py-5">
       
       <div class="container gap-3 ">
 
-        <a class="navbar-brand text-warning bg-dark" href="#">INFINITY</a>
-        <img src="../assets/icons/infinity_LOGO_CMYK_fondo_negro_nofrase_v2-1-removebg-preview.png" alt="logo" width="300px" />
-        <a class="navbar-brand text-warning bg-dark" href="#">RENTALS</a>        
+        <a class="navbar-brand text-warning bg-black" href="#">INFINITY</a>
+        <img src="../assets/icons/" alt="logo" width="300px" />
+        <a class="navbar-brand text-warning bg-black" href="#">RENTALS</a>        
 
       </div>
         
     </nav>
-        <!-- Segundo Menu -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container d-flex">
-            <div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-                
-              </div>
-            </div>
-            <div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-                
-              </div>
-            </div>
-          </div>
-        </nav>
+     
         <!-- Carrousel -->
         <div id="carouselExampleCaptions" class="carousel slide">
           <div class="carousel-indicators">    
@@ -99,7 +35,7 @@
               <div class="carousel-caption d-none d-md-block">
                 <h5>INFINITY RENTALS</h5>
                 <p>Las mejores propiedades en la Costa Del Sol</p>
-                <a href="../HTML/productos.html" class="btn btn-primary btn-lg">Ver más</a>
+                
               </div>
             </div>
             <div class="carousel-item">
@@ -126,180 +62,80 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
+      </div>
         
-        <!-- Menu de Busqueda -->
-        <br>
-        <div>
-          <form class="container d-flex justify-content-evenly align-items-center my-5 py-5">
-            <input type="text" id="search-input" placeholder="Población">
-            <input type="text" id="search-input" placeholder="Zona">
-            <input type="text" id="search-input" placeholder="Habitaciones">
-            <input type="text" id="search-input" placeholder="Tipo Inmueble">
-            <input type="text" id="search-input" placeholder="Precio Máximo">
-            <button type="submit" class="btn btn-primary">Buscar</button>
-
-        </form>
-      
-        </div>
+       
         <!--Titulo de seccion-->
         <br>
-        <div class="container d-flex justify-content-between align-items-center my-3">
+        <br>
+        <div class="container d-flex justify-content-center align-items-sm-stretch my-3">
           <div>
-            <h2>Inmuebles en alquiler</h2>
-            <p>Los mejores precios</p>
+            <h2 style="color:black;">Inmuebles en alquiler</h2>
+            <p style="color:black;"><strong>Los mejores precios</strong></p>
           </div>
-          <a href="#" class="btn btn-primary">Ver mas inmuebles</a>
-  
-
         </div>
-
+        <br>
+ 
         <!--Tarjetas de producto-->
 
-        <section class="container d-flex gap-3 my-3">
-          <div class="card border-primary border-2 rounded-4">
-            <img src="../assets/images/Casa4.jpg" class="card-img-top" alt="...">
-            
-            <div class="card-body">
-              <div class="d-flex justify-content-between">
-                <h5 class="card-title">Vivienda 2</h5>
-                <span>1500€/Mes</i></span>
-              </div>
-              
-              <br>
-              <p class="card-text">2 Dormitorios / 4 personas</p>
-              <p class="card-text">Reserva ahora</p>
-              
-              <div class="d-flex gap-3">
-                <a href="../HTML/detallesproducto.html" class="btn btn-primary w-100">Me interesa</a>
-                <a href="#" class="btn btn-secondary">Ver</a>
-            
-              </div>
-
-          
-            </div>
-          
+        <div class="card text-bg-dark">
+          <img src="../assets/images/Casa2.jpg" class="card-img" alt="Casa1">
+          <div class="card-img-overlay">
+            <h5 class="card-title">La Casa Der Manué</h5>
+            <p class="card-text">3500 euros/mes </p>
+            <button class="btn btn-primary" type="button" id="button-addon2">I like It</button>
           </div>
-          <div class="card border-primary border-2 rounded-4">
-            <img src="../assets/images/Casa4.jpg" class="card-img-top" alt="...">
-            
-            <div class="card-body">
-              <div class="d-flex justify-content-between">
-                <h5 class="card-title">Vivienda 2</h5>
-                <span>1500€/Mes</i></span>
-              </div>
-              
-              <br>
-              <p class="card-text">2 Dormitorios / 4 personas</p>
-              <p class="card-text">Reserva ahora</p>
-              
-              <div class="d-flex gap-3">
-                <a href="#" class="btn btn-primary w-100">Me interesa</a>
-                <a href="#" class="btn btn-secondary">Ver</a>
-            
-              </div>
-
-          
-            </div>
-          
+        </div>
+        <br>
+        <div class="card text-bg-dark">
+          <img src="../assets/images/Casa5.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Villa Nueva</h5>
+            <p class="card-text">1200 €/Semana</p>
+            <p class="card-text"><small>Villanueva del Trabuco</small></p>
+            <button class="btn btn-primary" type="button" id="button-addon2">I like It</button>
           </div>
-          <div class="card border-primary border-2 rounded-4">
-            <img src="../assets/images/Casa4.jpg" class="card-img-top" alt="...">
-            
-            <div class="card-body">
-              <div class="d-flex justify-content-between">
-                <h5 class="card-title">Vivienda 2</h5>
-                <span>1500€/Mes</i></span>
-              </div>
-              
-              <br>
-              <p class="card-text">2 Dormitorios / 4 personas</p>
-              <p class="card-text">Reserva ahora</p>
-              
-              <div class="d-flex gap-3">
-                <a href="#" class="btn btn-primary w-100">Me interesa</a>
-                <a href="#" class="btn btn-secondary">Ver</a>
-            
-              </div>
-
-          
-            </div>
-          
+        </div>
+        <br>
+        <div class="card text-bg-dark">
+          <img src="../assets/images/Casa6.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Villa Lobos</h5>
+            <p class="card-text">200 €/Semana</p>
+            <p class="card-text"><small>Marbella</small></p>
+            <button class="btn btn-primary" type="button" id="button-addon2">I like It</button>
           </div>
-          
-          </section>
-          <section class="container d-flex gap-3 my-3">
-            <div class="card border-primary border-2 rounded-4">
-              <img src="../assets/images/Casa4.jpg" class="card-img-top" alt="...">
-              
-              <div class="card-body">
-                <div class="d-flex justify-content-between">
-                  <h5 class="card-title">Vivienda 2</h5>
-                  <span>1500€/Mes</i></span>
-                </div>
-                
-                <br>
-                <p class="card-text">2 Dormitorios / 4 personas</p>
-                <p class="card-text">Reserva ahora</p>
-                
-                <div class="d-flex gap-3">
-                  <a href="../HTML/detallesproducto.html" class="btn btn-primary w-100">Me interesa</a>
-                  <a href="#" class="btn btn-secondary">Ver</a>
-              
-                </div>
-  
-            
-              </div>
-            
-            </div>
-            <div class="card border-primary border-2 rounded-4">
-              <img src="../assets/images/Casa4.jpg" class="card-img-top" alt="...">
-              
-              <div class="card-body">
-                <div class="d-flex justify-content-between">
-                  <h5 class="card-title">Vivienda 2</h5>
-                  <span>1500€/Mes</i></span>
-                </div>
-                
-                <br>
-                <p class="card-text">2 Dormitorios / 4 personas</p>
-                <p class="card-text">Reserva ahora</p>
-                
-                <div class="d-flex gap-3">
-                  <a href="#" class="btn btn-primary w-100">Me interesa</a>
-                  <a href="#" class="btn btn-secondary">Ver</a>
-              
-                </div>
-  
-            
-              </div>
-            
-            </div>
-            <div class="card border-primary border-2 rounded-4">
-              <img src="../assets/images/Casa4.jpg" class="card-img-top" alt="...">
-              
-              <div class="card-body">
-                <div class="d-flex justify-content-between">
-                  <h5 class="card-title">Vivienda 2</h5>
-                  <span>1500€/Mes</i></span>
-                </div>
-                
-                <br>
-                <p class="card-text">2 Dormitorios / 4 personas</p>
-                <p class="card-text">Reserva ahora</p>
-                
-                <div class="d-flex gap-3">
-                  <a href="#" class="btn btn-primary w-100">Me interesa</a>
-                  <a href="#" class="btn btn-secondary">Ver</a>
-              
-                </div>
-  
-            
-              </div>
-            
-            </div>
-            
-            </section>
-
+        </div>
+        <br>
+        <div class="card text-bg-dark">
+          <img src="../assets/images/Casa2.jpg" class="card-img" alt="Casa1">
+          <div class="card-img-overlay">
+            <h5 class="card-title">La Casa Der Manué</h5>
+            <p class="card-text">3500 euros/mes </p>
+            <p class="card-text"><small>Faerola</small></p>
+            <button class="btn btn-primary" type="button" id="button-addon2">I like It</button>
+          </div>
+        </div>
+        <br>
+        <div class="card text-bg-dark">
+          <img src="../assets/images/Casa5.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Villa Nueva</h5>
+            <p class="card-text">1200 €/Semana</p>
+            <p class="card-text"><small>Villanueva del Trabuco</small></p>
+            <button class="btn btn-primary" type="button" id="button-addon2">I like It</button>
+          </div>
+        </div>
+        <br>
+        <div class="card text-bg-dark">
+          <img src="../assets/images/Casa6.jpg" class="card-img" alt="...">
+          <div class="card-img-overlay">
+            <h5 class="card-title">Villa Lobos</h5>
+            <p class="card-text">200 €/Semana</p>
+            <p class="card-text"><small>Marbella</small></p>
+            <button class="btn btn-primary" type="button" id="button-addon2">I like It</button>
+          </div>
+        </div>
        
 
         <!--Otros trabajos-->
@@ -310,14 +146,15 @@
               <a href="#" class="btn btn-primary">Nuestros servicios</a>
               
             </div>
+            
             <div class="w-100">
               <figure class="text-end border border-primary border-2 rounded-4 p-4">
                 <blockquote class="blockquote">
                   <p>Ayudamos a cualquier persona interesada en comprar, vender, reformar o alquilar una vivienda a que cumpla con sus objetivos en el menor tiempo posible prestando una gestión integral durante todo el proceso. </p>
-                </blockquote>
-                
+                </blockquote>                
   
-                </div>
+            </div>
+
               </figure>
             </div>
         </section>
@@ -361,7 +198,7 @@
         </section>
 
         <!--Footer-->
-        <footer class="bg-dark text-light py-5">
+        <footer class="bg-black text-light py-5">
           <div class="container d-flex">
             <div class="w-100">
               <a class="h4 text-decoration-none" href="#">Infinity Rentals</a>
@@ -402,7 +239,7 @@
                 <i class="bi bi-facebook"></i>
                 <i class="bi bi-instagram"></i>
 
-
+ 
               </div>
               
             </div>

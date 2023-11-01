@@ -1,29 +1,39 @@
 :root{
-    --hue: 270;
-    --principal: hsl(var(--hue) 91% 50% / 1);
-    --secundario: hsl(var(--hue) 71% 70% / 1);
-    --resalto: hsl(var(--hue) 47, 73%, 56%);
-    --negro: hsl(var(--hue) 21% 20% / 1);
-    --blanco: hsl(var(--hue) 21% 98% / 1);
-    --gris: hsl(var(--hue) 21% 80% / 1);
-    --blpuro: hsl(var(--hue) 0, 0%, 100%);
+    --black: #000000;
+    --oxford-blue: #14213e;
+    --orange-web: #fda312;
+    --platinum: #e6e6e6;
+    --white: #ffffff;
+
 }
 
 /*Tarjetas de producto */
 
-/* .card{
-    width: 30%;
-    border: 4px solid var(--principal);
-    border-radius: 8px;
+.card{
+    width: 60%;
+    height: 20%;
+    border: 8px solid (--black);
+    border-radius: 16px;
     overflow: hidden;
-    display: flex */
-    
-/* } */
+    display: flex ;
+    margin: auto;
+
+}
 .navbar{
 
     display: flex
 
 
 }
+
+body {
+     background-color: hsl(42, 92%, 56%);
+    background-image: url("Fondo.jpg");
+    background-image: linear-gradient(hsl(0, 0%, 0%), hsl(44, 100%, 40%), hsl(44, 95%, 50%));
+  }
+
+
+
+
 
 
